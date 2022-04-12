@@ -5,6 +5,11 @@
   font-size: 30px;
   font-weight: normal;
   color: #2f80ed;
-  position: absolute;
+  align-self: flex-start;
   top: 0;
+  transition: opacity .1s linear;
+}
+
+.khan__buy-link:hover {
+  opacity: .5;
 }
